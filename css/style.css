@@ -75,6 +75,7 @@ li{
     justify-content: center;
     align-items: center;
   }
+ 
   
   .header-top .wrapper { gap: 20px; }
   
@@ -390,6 +391,16 @@ li{
     width: 0;
     background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
     z-index: 1;
+}
+
+@media (max-width: 590px) {
+    .logo_txt{
+        display: none;
+    }
+    .h-text{
+        font-size: 10px;
+        max-width: 300px;
+    }
 }
 
 @media (min-width: 768px) {
